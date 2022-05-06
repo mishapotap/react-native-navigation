@@ -12,7 +12,7 @@ const Friends = ({ navigation }) => {
     ])
 
     const goToFriend = (name) => {
-        navigation.navigate('Friend', {name})
+        navigation.navigate('Друг', {name})
     }
 
 	return (

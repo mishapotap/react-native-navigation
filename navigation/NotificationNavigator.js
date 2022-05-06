@@ -7,9 +7,9 @@ const Stack = createStackNavigator();
 
 const NotificationNavigator = () => {
 	return (
-		<Stack.Navigator initialRouteName="Notifications">
-			<Stack.Screen name="Notifications" component={Notifications} />
-			<Stack.Screen name="Comments" component={Comments} />
+		<Stack.Navigator initialRouteName="Уведомления">
+			<Stack.Screen name="Уведомления" component={Notifications} />
+			<Stack.Screen name="Комментарии" component={Comments} />
 		</Stack.Navigator>
 	);
 };

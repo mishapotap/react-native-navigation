@@ -9,11 +9,11 @@ const Drawer = createDrawerNavigator();
 
 const AnotherNavigator = () => {
 	return (
-		<Drawer.Navigator initialRouteName="Another">
-			<Drawer.Screen name="Another" component={Another} />
-			<Drawer.Screen name="Groups" component={Groups} />
-			<Drawer.Screen name="Music" component={Music} />
-			<Drawer.Screen name="Friends" component={FriendsNavigator} options={{headerShown: false}}/>
+		<Drawer.Navigator initialRouteName="Другое">
+			<Drawer.Screen name="Другое" component={Another} />
+			<Drawer.Screen name="Группы" component={Groups} />
+			<Drawer.Screen name="Музыка" component={Music} />
+			<Drawer.Screen name="Друзья" component={FriendsNavigator} options={{headerShown: false}}/>
 		</Drawer.Navigator>
 	);
 };

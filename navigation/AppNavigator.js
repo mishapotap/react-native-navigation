@@ -12,12 +12,12 @@ const Tab = createBottomTabNavigator();
 const AppNavigator = () => {
 	return (
 		<NavigationContainer>
-			<Tab.Navigator initialRouteName="Search">
-				<Tab.Screen name="Feeds" component={Feeds} />
-				<Tab.Screen name="Messages" component={Messages} />
-				<Tab.Screen name="Search" component={Search} />
-				<Tab.Screen name="Notifications" component={NotificationNavigator} options={{headerShown: false}}/>
-				<Tab.Screen name="Another" component={AnotherNavigator} options={{headerShown: false}}/>
+			<Tab.Navigator initialRouteName="Новости">
+				<Tab.Screen name="Новости" component={Feeds} />
+				<Tab.Screen name="Сообщения" component={Messages} />
+				<Tab.Screen name="Поиск" component={Search} />
+				<Tab.Screen name="Уведомления" component={NotificationNavigator} options={{headerShown: false}}/>
+				<Tab.Screen name="Другое" component={AnotherNavigator} options={{headerShown: false}}/>
 			</Tab.Navigator>
 		</NavigationContainer>
 	);

@@ -7,12 +7,12 @@ const Stack = createStackNavigator();
 
 const FriendsNavigator = () => {
 	return (
-		<Stack.Navigator initialRouteName="Friends">
+		<Stack.Navigator initialRouteName="Друзья">
 			<Stack.Screen
-				name="Friends"
+				name="Друзья"
 				component={Friends}
 			/>
-			<Stack.Screen name="Friend" component={Friend} options={({ route }) => ({ title: route.params.name })}/>
+			<Stack.Screen name="Друг" component={Friend} options={({ route }) => ({ title: route.params.name })}/>
 		</Stack.Navigator>
 	);
 };

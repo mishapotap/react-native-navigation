@@ -13,7 +13,7 @@ const Notifications = ({navigation}) => {
             <Text>Уведомления</Text>
             <Button
                 title='Комментарии'
-                onPress={() => navigation.navigate('Comments')}
+                onPress={() => navigation.navigate('Комментарии')}
             />
         </View>
     )
