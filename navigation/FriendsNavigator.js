@@ -11,7 +11,6 @@ const FriendsNavigator = () => {
 			<Stack.Screen
 				name="Friends"
 				component={Friends}
-                options={{headerShown: false}}
 			/>
 			<Stack.Screen name="Friend" component={Friend} options={({ route }) => ({ title: route.params.name })}/>
 		</Stack.Navigator>

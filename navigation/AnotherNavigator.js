@@ -13,7 +13,7 @@ const AnotherNavigator = () => {
 			<Drawer.Screen name="Another" component={Another} />
 			<Drawer.Screen name="Groups" component={Groups} />
 			<Drawer.Screen name="Music" component={Music} />
-			<Drawer.Screen name="Friends" component={FriendsNavigator} />
+			<Drawer.Screen name="Friends" component={FriendsNavigator} options={{headerShown: false}}/>
 		</Drawer.Navigator>
 	);
 };
